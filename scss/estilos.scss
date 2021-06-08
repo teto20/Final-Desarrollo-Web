@@ -68,6 +68,13 @@ body {
     height: auto;
     width: 100vw;
 }
+
+h3 {
+    color: $tituloColor;
+    font-family: $fuente;
+    font-size: 1.5rem;
+}
+
 ////////////////
 /*ESTILOS HOME*/
 ////////////////
@@ -193,6 +200,28 @@ footer span {
     font-family: $fuente;
 }
 
+////////////////////
+/*ESTILOS CONTACTO*/
+////////////////////
+.pForm {
+    color: $colorTexto;
+    font-family: $fuente;
+}
+
+.tituloForm {
+    color: $colorTexto;
+    font-family: $fuente;
+}
+.row {
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.colorBoton{
+    color: $colorTexto !important;
+    font-family: $fuente;
+}
+
 ////////////////////////////////////////////////////////////////
 /*MEDIA QUERIES*/
 ////////////////////////////////////////////////////////////////
@@ -224,10 +253,6 @@ footer span {
         font-size: 1rem;
         text-align: center;
         padding: 0.5rem;
-    }
-
-    .tituloReel {
-        padding-top: 2vh;
     }
 
     .pequeñoNosotros {
@@ -304,6 +329,16 @@ footer span {
 
     .personas {
         width: 60vw;
+    }
+
+    ////////////////////
+    /*ESTILOS CONTACTO*/
+    ////////////////////
+
+    .pForm {
+        margin: 0vh 4vw 1vh 4vw;
+        text-align: center;
+        line-height: 1.6;
     }
 
 }
