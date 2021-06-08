@@ -182,10 +182,16 @@ footer span {
     border: 1px solid white;
 }
 
-/////////////////////
-/*ESTILOS PROYECTOS*/
-/////////////////////
-
+////////////////////
+/*ESTILOS NOSOTROS*/
+////////////////////
+.personas {
+    border-radius: 100%;
+}
+.descPersonas {
+    color: $colorTexto;
+    font-family: $fuente;
+}
 
 ////////////////////////////////////////////////////////////////
 /*MEDIA QUERIES*/
@@ -291,6 +297,13 @@ footer span {
     /////////////////////
     .tituloServicios {
         text-align: $tituloAlineacionMobile;
+    }
+    ////////////////////
+    /*ESTILOS NOSOTROS*/
+    ////////////////////
+
+    .personas {
+        width: 60vw;
     }
 
 }
