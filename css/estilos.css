@@ -60,6 +60,7 @@ body {
 #logo {
   height: 5vh; }
 
+/*ESTILOS HOME*/
 .videoFondo {
   height: 100vh; }
 
@@ -102,8 +103,9 @@ body {
   line-height: 1.6; }
 
 .tituloReel {
-  color: white;
-  font-family: "Roboto", sans-serif; }
+  color: #FCC75A;
+  font-family: "Roboto", sans-serif;
+  text-align: center; }
 
 .sliderPrincipal {
   height: 90vh; }
@@ -130,8 +132,29 @@ footer span {
   color: #A6A6A6;
   font-family: "Roboto", sans-serif; }
 
+/*ESTILOS SERVICIOS*/
+.tituloServicios {
+  color: #FCC75A;
+  font-family: "Roboto", sans-serif; }
+
+.descripcionServicios {
+  color: #A6A6A6;
+  font-family: "Roboto", sans-serif; }
+
+.subTituloServicios {
+  color: #FCC75A;
+  font-family: "Roboto", sans-serif; }
+
+.descripcionSubServicios {
+  color: #A6A6A6;
+  font-family: "Roboto", sans-serif; }
+
+.hrServicios {
+  border: 1px solid white; }
+
 /*MEDIA QUERIES*/
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /*ESTILOS HOME*/
   #video768, #video1024, #video1440, #video1920 {
     display: none; }
   .videoFondo {
@@ -148,17 +171,41 @@ footer span {
     text-align: center;
     padding: 0.5rem; }
   .tituloReel {
-    padding-top: 2vh;
-    padding-left: 2.5vh; }
+    padding-top: 2vh; }
   .pequeñoNosotros {
-    margin: 8vh 2.5vh 8vh 2.5vh;
-    text-align: center; }
+    margin: 8vh 2.5vh 8vh 2.5vh; }
     .pequeñoNosotros h2 {
-      color: white;
-      font-family: "Roboto", sans-serif; }
+      color: #FCC75A;
+      font-family: "Roboto", sans-serif;
+      text-align: center; }
     .pequeñoNosotros p {
       text-align: center;
-      line-height: 1.6; } }
+      line-height: 1.6; }
+  /*ESTILOS SERVICIOS*/
+  .tituloServicios {
+    text-align: center; }
+  .descripcionServicios {
+    margin: 3vh 4vw 3vh 4vw;
+    text-align: center;
+    line-height: 1.6; }
+  .espaciadoCarousel {
+    margin-left: 4vw;
+    margin-right: 4vw; }
+  .subTituloServicios {
+    text-align: center;
+    padding-top: 2vh; }
+  .descripcionSubServicios {
+    margin: 0vh 4vw 3vh 4vw;
+    text-align: center;
+    line-height: 1.6; }
+  .hrServicios {
+    margin-left: 4vw;
+    margin-right: 4vw; }
+  .contenedorLinkBoton {
+    margin-left: auto;
+    margin-right: auto; }
+  .linkBtn {
+    text-align: center; } }
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
   #video480, #video1024, #video1440, #video1920 {

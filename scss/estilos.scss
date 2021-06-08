@@ -30,6 +30,8 @@ p { font-size: 1.2em; line-height: 1.0em; color: #333; }
 ////////////////////////////////////////////////////////////////
 $fuente: 'Roboto', sans-serif;
 $colorTexto: #A6A6A6;
+$tituloColor: #FCC75A;
+$tituloAlineacionMobile: center;
 
 body {
     background-color: black !important;
@@ -42,6 +44,9 @@ body {
 #logo {
     height: 5vh; 
 }
+////////////////
+/*ESTILOS HOME*/
+////////////////
 .videoFondo {
     height: 100vh;
 }
@@ -90,8 +95,9 @@ body {
 }
 
 .tituloReel {
-    color: white;
+    color: $tituloColor;
     font-family: $fuente;
+    text-align: $tituloAlineacionMobile;
 }
 
 .sliderPrincipal {
@@ -123,10 +129,42 @@ footer span {
     font-family: $fuente;
 }
 
+/////////////////////
+/*ESTILOS SERVICIOS*/
+/////////////////////
+
+.tituloServicios {
+    color: $tituloColor;
+    font-family: $fuente;
+}
+
+.descripcionServicios {
+    color: $colorTexto;
+    font-family: $fuente;
+}
+
+.subTituloServicios {
+    color: $tituloColor;
+    font-family: $fuente;
+}
+
+.descripcionSubServicios {
+    color: $colorTexto;
+    font-family: $fuente;
+}
+
+.hrServicios {
+    border: 1px solid white;
+}
+
 ////////////////////////////////////////////////////////////////
 /*MEDIA QUERIES*/
 ////////////////////////////////////////////////////////////////
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    ////////////////
+    /*ESTILOS HOME*/
+    ////////////////
     #video768, #video1024, #video1440, #video1920 { 
         display: none;
     }
@@ -136,7 +174,7 @@ footer span {
 
     .marca {
         font-size: 3rem;
-        text-align: center;
+        text-align: $tituloAlineacionMobile;
         padding-top: 25vh;
     }
 
@@ -153,20 +191,62 @@ footer span {
 
     .tituloReel {
         padding-top: 2vh;
-        padding-left: 2.5vh;
     }
 
     .pequeñoNosotros {
         margin: 8vh 2.5vh 8vh 2.5vh;
-        text-align: center;
         h2 {
-            color: white;
+            color: $tituloColor;
             font-family: $fuente;
+            text-align: $tituloAlineacionMobile;
         }
         p {
             text-align: center;
             line-height: 1.6;
         }
+    }
+
+    /////////////////////
+    /*ESTILOS SERVICIOS*/
+    /////////////////////
+    .tituloServicios {
+        text-align: $tituloAlineacionMobile;
+    }
+
+    .descripcionServicios {
+        margin: 3vh 4vw 3vh 4vw;
+        text-align: center;
+        line-height: 1.6;
+    }
+
+    .espaciadoCarousel {
+        margin-left: 4vw;
+        margin-right: 4vw;
+    }
+
+    .subTituloServicios {
+        text-align: $tituloAlineacionMobile;
+        padding-top: 2vh;
+    }
+
+    .descripcionSubServicios {
+        margin: 0vh 4vw 3vh 4vw;
+        text-align: center;
+        line-height: 1.6;
+    }
+
+    .hrServicios {
+        margin-left: 4vw;
+        margin-right: 4vw;
+    }
+
+    .contenedorLinkBoton{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .linkBtn {
+        text-align: center;
     }
 
 
