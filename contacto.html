@@ -41,39 +41,39 @@
         <h1 class="titulo">Contacto</h1>
         <p class="descripcion">Hablemos. No dudes en ponerte en contacto con nosotros mediante la información de contacto a continuación, o envíanos un mensaje a travez del formulario.</p>
         
-        <div class="row">
-            <section class="col-xs-10 col-sm-10 col-md-4 col-lg-4 text-center">
-                <article class="col-xs-10 col-sm-10 col-md-12 col-lg-12" id="direccion">
+        <div class="row contenedorForm">
+            <section class="col-lg-4 text-center">
+                <article class="col-lg-12" id="direccion">
                     <h3>Dirección</h3>
                     <p class="pForm">Avenida Siempreviva 742</p>
                 </article>
-                <article class="col-xs-10 col-sm-10 col-md-12 col-lg-12" id="telefono">
+                <article class="col-lg-12" id="telefono">
                     <h3>Teléfono</h3>
                     <p class="pForm">+598 94 123 456</p>
                 </article>
-                <article class="col-xs-10 col-sm-10 col-md-12 col-lg-12" id="email">
+                <article class="col-lg-12" id="email">
                     <h3>Email</h3>
                     <p class="pForm">emaildeprueba@gmail.com</p>
                 </article>
             </section>
-            <section class="col-xs-10 col-sm-12 col-md-8 col-lg-7">
+            <section class="col-lg-7">
                 <form>
                     <div class="row">
-                        <div class="form-group col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="form-group col-lg-6">
                             <label class="tituloForm" for="labelNombre">Nombre</label>
                             <input type="text" class="form-control" id="inputNombre" name="nombre">
                         </div>
-                        <div class="form-group col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="form-group col-lg-6">
                             <label class="tituloForm" for="inputApellido">Apellido</label>
                             <input type="text" class="form-control" id="inputApellido">
                         </div>
                     </div>
                 <div class="row">
-                    <div class="form-group col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                    <div class="form-group col-lg-8">
                         <label class="tituloForm" for="inputAddress">Direccion</label>
                         <input type="text" class="form-control" id="inputDireccion">
                     </div>
-                    <div class="form-group col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="form-group col-lg-4">
                         <label class="tituloForm" for="inputPais">Pais</label>
                         <select id="inputPais" class="form-control">
                         <option selected>Seleccione uno...</option>
@@ -86,13 +86,15 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="form-group col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="form-group col-lg-12">
                         <label class="tituloForm" for="mensaje">Mensaje</label>
                         <textarea class="form-control" id="mensaje" rows="3"></textarea>
                     </div>
                 </div>
-                    <button type="submit" class="btn colorBoton">Enviar Formulario</button>
-                    <button type="button" class="btn colorBoton" data-toggle="modal" data-target="#alertaModal">Borrar Formulario</button> 
+                    <div class="botonesContacto">
+                        <button type="submit" class="btn colorBoton">Enviar Formulario</button>
+                        <button type="button" class="btn colorBoton" data-toggle="modal" data-target="#alertaModal">Borrar Formulario</button> 
+                    </div>
                     <!-- Modal -->
                     <div class="modal fade modalEstilos" id="alertaModal" tabindex="-1" aria-labelledby="alertaModal" aria-hidden="true">
                         <div class="modal-dialog">

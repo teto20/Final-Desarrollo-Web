@@ -72,7 +72,7 @@ body {
 .iconoSociales {
   color: #dbaa60;
   font-size: 2rem;
-  padding-left: 5vw;
+  padding-right: 5vw;
   padding-top: 1vh; }
 
 .videosProyectos {
@@ -194,10 +194,6 @@ footer span {
   color: #A6A6A6;
   font-family: "Roboto", sans-serif; }
 
-.row {
-  padding-left: 1vw;
-  padding-right: 1vw; }
-
 .colorBoton {
   color: #A6A6A6 !important;
   font-family: "Roboto", sans-serif; }
@@ -267,20 +263,413 @@ footer span {
   .pForm {
     margin: 0vh 4vw 1vh 4vw;
     text-align: center;
-    line-height: 1.6; } }
+    line-height: 1.6; }
+  .row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    padding-left: 1vw;
+    padding-right: 1vw; }
+  .botonesContacto {
+    display: flex;
+    align-items: center;
+    justify-content: center; } }
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
   #video480, #video1024, #video1440, #video1920 {
-    display: none; } }
+    display: none; }
+  .videoFondo {
+    width: 100vw;
+    object-fit: fill; }
+  .marca {
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 35vh; }
+  .textoCarousel {
+    font-size: 2rem;
+    text-align: center; }
+  .miniDescripcion {
+    font-size: 1rem;
+    text-align: center;
+    padding: 0.5rem; }
+  .pequeñoNosotros {
+    margin: 8vh 2.5vh 8vh 2.5vh; }
+    .pequeñoNosotros h2 {
+      color: #FCC75A;
+      font-family: "Roboto", sans-serif;
+      text-align: center; }
+    .pequeñoNosotros p {
+      text-align: center;
+      line-height: 1.6; }
+  /*ESTILOS GENERALES*/
+  .titulo {
+    text-align: center;
+    padding-top: 10vh; }
+  .descripcion {
+    margin: 3vh 4vw 3vh 4vw;
+    text-align: center;
+    line-height: 1.6; }
+  /*ESTILOS SERVICIOS*/
+  .espaciadoCarousel {
+    margin-left: 4vw;
+    margin-right: 4vw; }
+  .subTitulo {
+    text-align: center;
+    padding-top: 2vh; }
+  .descripcionSubServicios {
+    margin: 0vh 4vw 3vh 4vw;
+    text-align: center;
+    line-height: 1.6; }
+  .hrServicios {
+    margin-left: 4vw;
+    margin-right: 4vw; }
+  .contenedorLinkBoton {
+    text-align: center;
+    padding-bottom: 3vh; }
+  .linkBtn {
+    text-align: center; }
+  /*ESTILOS NOSOTROS*/
+  .personas {
+    width: 30vw; }
+  /*ESTILOS CONTACTO*/
+  .pForm {
+    margin: 0vh 4vw 1vh 4vw;
+    text-align: center;
+    line-height: 1.6; }
+  .row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    padding-left: 1vw;
+    padding-right: 1vw; }
+  .botonesContacto {
+    display: flex;
+    align-items: center;
+    justify-content: center; } }
 
 @media only screen and (min-device-width: 769px) and (max-device-width: 1024px) {
   #video480, #video768, #video1440, #video1920 {
-    display: none; } }
+    display: none; }
+  .videoFondo {
+    width: 100vw;
+    object-fit: fill; }
+  .marca {
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 35vh; }
+  .textoCarousel {
+    font-size: 2rem;
+    text-align: center; }
+  .miniDescripcion {
+    font-size: 1rem;
+    text-align: center;
+    padding: 0.5rem; }
+  .pequeñoNosotros {
+    margin: 8vh 2.5vh 8vh 2.5vh; }
+    .pequeñoNosotros h2 {
+      color: #FCC75A;
+      font-family: "Roboto", sans-serif;
+      text-align: center; }
+    .pequeñoNosotros p {
+      text-align: center;
+      line-height: 1.6; }
+  /*ESTILOS GENERALES*/
+  .titulo {
+    text-align: center;
+    padding-top: 10vh; }
+  .descripcion {
+    margin: 3vh 4vw 3vh 4vw;
+    text-align: center;
+    line-height: 1.6; }
+  /*ESTILOS SERVICIOS*/
+  .lookbook {
+    grid-area: lookbook; }
+  .campaña {
+    grid-area: campaña; }
+  .fotografia {
+    grid-area: fotografia; }
+  .film {
+    grid-area: film; }
+  .grillaServicios {
+    display: grid;
+    grid-template-areas: "lookbook campaña" "fotografia film";
+    grid-template-columns: 49vw 49vw;
+    grid-template-rows: auto auto; }
+  .lookbook {
+    padding-bottom: 1vw; }
+  .campañas {
+    padding-bottom: 1vw; }
+  .fotografia {
+    padding-bottom: 1vw; }
+  .film {
+    padding-bottom: 1vw; }
+  .espaciadoCarousel {
+    margin-left: 4vw;
+    margin-right: 4vw; }
+  .subTitulo {
+    text-align: center;
+    padding-top: 2vh; }
+  .descripcionSubServicios {
+    margin: 0vh 4vw 3vh 4vw;
+    text-align: center;
+    line-height: 1.6; }
+  .hrServicios {
+    margin-left: 4vw;
+    margin-right: 4vw; }
+  .contenedorLinkBoton {
+    text-align: center;
+    padding-bottom: 3vh; }
+  .linkBtn {
+    text-align: center; }
+  /*ESTILOS SERVICIOS*/
+  .videosProyectos {
+    height: auto;
+    width: 50vw; }
+  .video1 {
+    width: 50vw;
+    grid-area: v1; }
+  .video2 {
+    width: 50vw;
+    grid-area: v2; }
+  .video3 {
+    width: 50vw;
+    grid-area: v3; }
+  .video4 {
+    width: 50vw;
+    grid-area: v4; }
+  .video5 {
+    width: 50vw;
+    grid-area: v5; }
+  .video6 {
+    width: 50vw;
+    grid-area: v6; }
+  .contenedorVideos {
+    display: grid;
+    grid-template-areas: "v1 v2" "v3 v4" "v5 v6";
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    padding-bottom: 5vh; }
+  .row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    padding-left: 1vw;
+    padding-right: 1vw; } }
 
 @media only screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
   #video480, #video768, #video1024, #video1920 {
-    display: none; } }
+    display: none; }
+  .videoFondo {
+    width: 100vw;
+    object-fit: fill; }
+  .marca {
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 35vh; }
+  .textoCarousel {
+    font-size: 2rem;
+    text-align: center; }
+  .miniDescripcion {
+    font-size: 1rem;
+    text-align: center;
+    padding: 0.5rem; }
+  .pequeñoNosotros {
+    margin: 8vh 2.5vh 8vh 2.5vh; }
+    .pequeñoNosotros h2 {
+      color: #FCC75A;
+      font-family: "Roboto", sans-serif;
+      text-align: center; }
+    .pequeñoNosotros p {
+      text-align: center;
+      line-height: 1.6; }
+  /*ESTILOS GENERALES*/
+  .titulo {
+    text-align: center;
+    padding-top: 10vh; }
+  .descripcion {
+    margin: 3vh 4vw 3vh 4vw;
+    text-align: center;
+    line-height: 1.6; }
+  /*ESTILOS SERVICIOS*/
+  .lookbook {
+    grid-area: lookbook; }
+  .campaña {
+    grid-area: campaña; }
+  .fotografia {
+    grid-area: fotografia; }
+  .film {
+    grid-area: film; }
+  .grillaServicios {
+    display: grid;
+    grid-template-areas: "lookbook campaña" "fotografia film";
+    grid-template-columns: 49vw 49vw;
+    grid-template-rows: auto auto; }
+  .lookbook {
+    padding-bottom: 1vw; }
+  .campañas {
+    padding-bottom: 1vw; }
+  .fotografia {
+    padding-bottom: 1vw; }
+  .film {
+    padding-bottom: 1vw; }
+  .espaciadoCarousel {
+    margin-left: 4vw;
+    margin-right: 4vw; }
+  .subTitulo {
+    text-align: center;
+    padding-top: 2vh; }
+  .descripcionSubServicios {
+    margin: 0vh 4vw 3vh 4vw;
+    text-align: center;
+    line-height: 1.6; }
+  .hrServicios {
+    margin-left: 4vw;
+    margin-right: 4vw; }
+  .contenedorLinkBoton {
+    text-align: center;
+    padding-bottom: 3vh; }
+  .linkBtn {
+    text-align: center; }
+  /*ESTILOS SERVICIOS*/
+  .videosProyectos {
+    height: auto;
+    width: 50vw; }
+  .video1 {
+    width: 50vw;
+    grid-area: v1; }
+  .video2 {
+    width: 50vw;
+    grid-area: v2; }
+  .video3 {
+    width: 50vw;
+    grid-area: v3; }
+  .video4 {
+    width: 50vw;
+    grid-area: v4; }
+  .video5 {
+    width: 50vw;
+    grid-area: v5; }
+  .video6 {
+    width: 50vw;
+    grid-area: v6; }
+  .contenedorVideos {
+    display: grid;
+    grid-template-areas: "v1 v2" "v3 v4" "v5 v6";
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    padding-bottom: 5vh; }
+  .contenedorForm {
+    height: 80vh; }
+  .row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    padding-left: 1vw;
+    padding-right: 1vw; } }
 
 @media only screen and (min-width: 1441px) {
   #video480, #video768, #video1024, #video1440 {
-    display: none; } }
+    display: none; }
+  .videoFondo {
+    width: 100vw;
+    object-fit: fill; }
+  .marca {
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 35vh; }
+  .textoCarousel {
+    font-size: 3rem;
+    text-align: center; }
+  .miniDescripcion {
+    font-size: 2rem;
+    text-align: center;
+    padding: 0.5rem; }
+  .pequeñoNosotros {
+    margin: 8vh 2.5vh 8vh 2.5vh; }
+    .pequeñoNosotros h2 {
+      color: #FCC75A;
+      font-family: "Roboto", sans-serif;
+      text-align: center; }
+    .pequeñoNosotros p {
+      text-align: center;
+      line-height: 1.6; }
+  /*ESTILOS GENERALES*/
+  .titulo {
+    text-align: center;
+    padding-top: 10vh; }
+  .descripcion {
+    margin: 3vh 4vw 3vh 4vw;
+    text-align: center;
+    line-height: 1.6; }
+  /*ESTILOS SERVICIOS*/
+  .lookbook {
+    grid-area: lookbook; }
+  .campaña {
+    grid-area: campaña; }
+  .fotografia {
+    grid-area: fotografia; }
+  .film {
+    grid-area: film; }
+  .grillaServicios {
+    display: grid;
+    grid-template-areas: "lookbook campaña" "fotografia film";
+    grid-template-columns: 49vw 49vw;
+    grid-template-rows: auto auto; }
+  .lookbook {
+    padding-bottom: 1vw; }
+  .campañas {
+    padding-bottom: 1vw; }
+  .fotografia {
+    padding-bottom: 1vw; }
+  .film {
+    padding-bottom: 1vw; }
+  .espaciadoCarousel {
+    margin-left: 4vw;
+    margin-right: 4vw; }
+  .subTitulo {
+    text-align: center;
+    padding-top: 2vh; }
+  .descripcionSubServicios {
+    margin: 0vh 4vw 3vh 4vw;
+    text-align: center;
+    line-height: 1.6; }
+  .hrServicios {
+    margin-left: 4vw;
+    margin-right: 4vw; }
+  .contenedorLinkBoton {
+    text-align: center;
+    padding-bottom: 3vh; }
+  .linkBtn {
+    text-align: center; }
+  /*ESTILOS SERVICIOS*/
+  .videosProyectos {
+    height: auto;
+    width: 49.5vw; }
+  .video1 {
+    width: 49.5vw;
+    grid-area: v1; }
+  .video2 {
+    width: 49.5vw;
+    grid-area: v2; }
+  .video3 {
+    width: 49.5vw;
+    grid-area: v3; }
+  .video4 {
+    width: 49.5vw;
+    grid-area: v4; }
+  .video5 {
+    width: 49.5vw;
+    grid-area: v5; }
+  .video6 {
+    width: 49.5vw;
+    grid-area: v6; }
+  .contenedorVideos {
+    display: grid;
+    grid-template-areas: "v1 v2" "v3 v4" "v5 v6";
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    width: 99vw;
+    padding-bottom: 5vh; }
+  .contenedorForm {
+    height: 75vh; }
+  .row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    padding-left: 1vw;
+    padding-right: 1vw; } }
